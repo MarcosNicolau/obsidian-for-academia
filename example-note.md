@@ -13,18 +13,18 @@ variable:
   - classoption=twocolumn % two column layout
 header-includes: |
 	\usepackage{preamble} 
-    \usepackage{fancyhdr}
-    \pagestyle{fancy}
-    \fancyhf[]{}
-    \fancyhead[R]{\date{\today}}
-    \fancyhead[L]{\nouppercase{\rightmark}}
-    \fancyfoot[R]{\thepage}
-    \fancyfoot[L]{Author}
-    \usepackage[a4paper, portrait, margin=1in]{geometry}
-    \fontsize{12pt}{12pt}\selectfont
-    \usepackage{setspace}
-    \doublespacing
-    \newlength\FHoffset
+  \usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyhf[]{}
+  \fancyhead[R]{\date{\today}}
+  \fancyhead[L]{\nouppercase{\rightmark}}
+  \fancyfoot[R]{\thepage}
+  \fancyfoot[L]{Author}
+  \usepackage[a4paper, portrait, margin=1in]{geometry}
+  \fontsize{12pt}{12pt}\selectfont
+  \usepackage{setspace}
+  \doublespacing
+  \newlength\FHoffset
 	\setlength\FHoffset{1cm}
 	\fancyheadoffset{\FHoffset}
 	\usepackage{amsmath}

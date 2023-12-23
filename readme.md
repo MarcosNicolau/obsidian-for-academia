@@ -290,7 +290,22 @@ The great thing about pandoc is that not only can you export your documents as P
 
 The great thing about pandoc is that you can make internal links work. See more [here](https://pandoc.org/chunkedhtml-demo/7.2-headings-and-sections.html) and [here](https://pandoc.org/chunkedhtml-demo/8.3-headings.html#heading-identifiers).
 
-But basically, pandoc assigns an identifier to every header which is its name in undercaps. So to link to a header you would do `[click here](#header-name-in-undercaps-and-separated-by-hyphens)`.
+But basically, pandoc assigns an identifier to every header which is its name in undercaps. So to link to a header you would do `[click here](#header-name-in-undercaps-and-separated-by-hyphens)`. The problem is that it might not work with Obsidian out of the box. 
+
+
+You can assign identifiers to your headers by adding {#id} next to it. See below.
+
+```markdown
+# A header {#my_id}
+
+...
+
+### Later in the note
+
+[see here](#my_id)
+```
+
+Though, it won't work with Obsidian.
 
 ### Other
 
