@@ -1,3 +1,5 @@
+# Obsidian for Academia
+
 This repository is an attempt to create a collaborative documentation explaining all the forms to convert obsidian into an academic writing tool.
 
 There is no single or definite form of achieving this. So here you will find all the possible setups with their benefits and drawbacks explained.
@@ -31,7 +33,6 @@ To see this workflow in action, watch this [video](https://youtube.com).
     -   [Other](#other)
         -   [Combine notes](#combine-notes)
         -   [Improving Math writing](#improving-math-writing)
-    -   [Final result and conclusion](#final-result-and-conclusion)
 -   [Contributing](#contributing)
 -   [Reference](#reference)
 
@@ -46,9 +47,10 @@ Zotero is really well integrated into obsidian, so preferably you should go with
 #### Integrating Zotero
 
 Here is what you need to install:
-[Zotero 6 and Zotero Browser Connector](https://www.zotero.org/download/)  
-[Better Bibtex for Zotero](https://retorque.re/zotero-better-bibtex/) - Zotero plugin  
-[Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration) - Obsidian plugin
+
+-   [Zotero 6 and Zotero Browser Connector](https://www.zotero.org/download/)
+-   [Better Bibtex for Zotero](https://retorque.re/zotero-better-bibtex/) - Zotero plugin
+-   [Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration) - Obsidian plugin
 
 Note: We are skipping the installation of Zotero and its plugins here, as well as the basics of Zotero, since these instructions are widely available on the web.
 
@@ -68,10 +70,15 @@ After that, you would create a note by entering the command "Zotero Integration:
 
 ![2](assets/2.png)
 
+And this is how your notes will look like:
+
+![17](assets/17.png)
+
 #### Integrating another Reference manager
 
 As explained before you need to install the following:
-[Obsidian Citations](https://github.com/hans/obsidian-citation-plugin) - Obsidian plugin
+
+-   [Obsidian Citations](https://github.com/hans/obsidian-citation-plugin) - Obsidian plugin
 
 And then you have to export your library in .bib format. Then, you tell the plugin to use that file in the configuration.
 
@@ -114,7 +121,7 @@ Citations can be added using the Zotero Integration plugin by configuring a cert
 
 For example:
 
-![16](assets/16.png)
+![1](assets/1.png)
 
 ![3](assets/3.png)
 
@@ -127,8 +134,9 @@ And then you could also connect the citation to its respective note:
 #### Pandoc
 
 You'll need to install:
-[Pandoc](https://pandoc.orgl)
-[Pandoc Reference List](https://github.com/mgmeyers/obsidian-pandoc-reference-list) - Obsidian plugin
+
+-   [Pandoc](https://pandoc.orgl)
+-   [Pandoc Reference List](https://github.com/mgmeyers/obsidian-pandoc-reference-list) - Obsidian plugin
 
 Note: If you want to export your documents using pandoc, then you must use this form. Since pandoc will automatically create the citations for you.
 
@@ -236,10 +244,11 @@ If you choose to export using pandoc then you must forfeit features like DataVie
 ##### Exporting
 
 You need to install:
-[Pandoc](https://pandoc.org/installing.html)
-[A Latex engine](https://www.tug.org/texlive/)
-[Obsidian Pandoc](https://github.com/OliverBalfour/obsidian-pandoc)(optional) - Obsidian plugin
-[Templater](https://github.com/SilentVoid13/Templater) - Obsidian Plugin
+
+-   [Pandoc](https://pandoc.org/installing.html)
+-   [A Latex engine](https://www.tug.org/texlive/)
+-   [Obsidian Pandoc](https://github.com/OliverBalfour/obsidian-pandoc)(optional) - Obsidian plugin
+-   [Templater](https://github.com/SilentVoid13/Templater) - Obsidian Plugin
 
 If you've been reading the readme, you should know that if you are using pandoc export, then the citations and the bibliography are created by this tool.
 
@@ -267,6 +276,12 @@ pandoc <PATH_TO_NOTE>.md -o ./output.pdf --from=markdown+wikilinks_title_after_p
 
 Note: we are not passing the common flags you will see in other guides because they are all passed through the document properties. For example, you could provide the bibliography, citeproc, and csl flags in the extra arguments field in the Obsidian Pandoc settings.
 
+To see an example see
+
+| Source                      | Exported                 |
+| --------------------------- | ------------------------ |
+| [markdown](example-note.md) | [ pdf](example-note.pdf) |
+
 ##### Other formats
 
 The great thing about pandoc is that not only can you export your documents as PDFs but to any other format you can think of, such as docx, epub, html, and many more. Check their [docs](https://hackage.haskell.org/package/pandoc) to see how.
@@ -281,21 +296,36 @@ But basically, pandoc assigns an identifier to every header which is its name in
 
 #### Combine notes
 
-`pandoc -s ./testing.md ./La\ relación\ entre\ el\ teorema\ de\ la\ Divergencia\ y\ el\ de\ Green.md -o combined.md`
+If you are writing a long document, chances are you are writing each section in a separate file. To merge all the content into a single file when exporting all the files you can do it through pandoc or obsidian.
+
+**pandoc**
+
+| Source               | Exported             |
+| -------------------- | -------------------- |
+| ![14](assets/14.png) | ![10](assets/10.png) |
+
+`pandoc ./note_1.md ./note_2.md ... ./note_n.md -o output.pdf`
+
+or if everythinng is inside a folder:
+
+`pandoc ./folder/*.md -o output.pdf`
+
+**obsidian**
+With obsidian, you just simply call all the notes into one
 
 ```markdown
-![[2022–01–01]
-![2022–01–02](2022–01–02)
-![2022–01–03](2022–01–03)
+![[note_1]]
+![[note_2]]
+![[note_3]]
+.
+.
+.
+![[note_n]]
 ```
 
 #### Improving Math writing
 
 (TO_BE_ADDED)
-
-### Final result and conclusion
-
-To see the final result you can watch this [video](https://youtube.com).
 
 ---
 
