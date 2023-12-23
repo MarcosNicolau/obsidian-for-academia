@@ -300,10 +300,6 @@ If you are writing a long document, chances are you are writing each section in 
 
 **pandoc**
 
-| Source               | Exported             |
-| -------------------- | -------------------- |
-| ![14](assets/14.png) | ![10](assets/10.png) |
-
 `pandoc ./note_1.md ./note_2.md ... ./note_n.md -o output.pdf`
 
 or if everythinng is inside a folder:
@@ -311,6 +307,7 @@ or if everythinng is inside a folder:
 `pandoc ./folder/*.md -o output.pdf`
 
 **obsidian**
+
 With obsidian, you just simply call all the notes into one
 
 ```markdown
