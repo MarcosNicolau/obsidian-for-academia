@@ -4,6 +4,37 @@ There is no single or definite form of achieving this. So here you will find all
 
 To see this workflow in action, watch this [video](https://youtube.com).
 
+# Table of Contents
+
+-   [How to setup](#how-to-setup)
+    -   [Reference Manager integration](#reference-manager-integration)
+        -   [Integrating Zotero](#integrating-zotero)
+            -   [Importing your annotations](#importing-your-annotations)
+        -   [Integrating other Reference manager](#integrating-other-reference-manager)
+            -   [Importing your annotations](#importing-your-annotations-1)
+    -   [Citations](#citations)
+        -   [Zotero Integration](#zotero-integration)
+        -   [Pandoc](#pandoc)
+    -   [Creating bibliography](#creating-bibliography)
+        -   [Zotero Integration](#zotero-integration-1)
+        -   [Pandoc Reference List](#pandoc-reference-list)
+        -   [Pandoc](#pandoc-1)
+    -   [Exporting](#exporting)
+        -   [Native](#native)
+            -   [Caveats](#caveats)
+            -   [Styling](#styling)
+        -   [Pandoc](#pandoc-2)
+            -   [Caveats](#caveats-1)
+            -   [Exporting](#exporting-1)
+            -   [Other formats](#other-formats)
+            -   [Internal links](#internal-links)
+    -   [Other](#other)
+        -   [Combine notes](#combine-notes)
+        -   [Improving Math writing](#improving-math-writing)
+    -   [Final result and conclusion](#final-result-and-conclusion)
+-   [Contributing](#contributing)
+-   [Reference](#reference)
+
 ## How to setup
 
 ### Reference Manager integration
