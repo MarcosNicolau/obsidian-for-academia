@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "2cdc95712184eb8e",
+    "type": "split",
+    "children": [
+      {
+        "id": "22353e4ef35b1bc3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c457d2d9af640d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "readme.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4044735e503ee48d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e2b05b49b4e07bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57041b7eebad57c4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c52d5f73c17d0840",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Theorem",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b7a8af1613dacf1a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 246.5
+  },
+  "right": {
+    "id": "8cf362f20dbc1b15",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a54bbe114d13d3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd5b8d865406fb18",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "readme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ecfb33f698d2d2ad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "readme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0ac816e0631a61c8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5ee76eecd68c2363",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "readme.md"
+              }
+            }
+          },
+          {
+            "id": "176f8642d3c4d64a",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 248.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0c457d2d9af640d0",
+  "lastOpenFiles": [
+    "snippets/zotero.css",
+    "snippets/paper.css",
+    "snippets/general.css",
+    "snippets",
+    "example-note.md",
+    "ZoteroNotes/@hubbardVectorCalculusLinear.md",
+    "example-note.pdf",
+    "templates/paper.md",
+    "templates/zotero note integration.md",
+    "readme.md",
+    "La relación entre el teorema de la Divergencia y el de Green.md",
+    "assets/17.png",
+    "assets/Screenshot from 2023-12-23 17-44-46.png",
+    "ZoteroNotes/@SurfaceIntegralsDifference.md",
+    "gh-md-toc",
+    "assets/14.png",
+    "assets/12.png",
+    "assets/9.png",
+    "assets/7.png",
+    "assets/16.png",
+    "assets/1.png",
+    "assets/15.png",
+    "assets/13.png",
+    "preamble.sty",
+    "preambl.sty",
+    "La relación entre el teorema de la Divergencia y el de Green 2.md",
+    "La relación entre el teorema de la Divergencia y el de Green 2.pdf",
+    "La relación entre el teorema de la Divergencia y el de Green 2.docx",
+    "header.tex",
+    "assets/example-note.md",
+    "readme.md.md",
+    "combined.md",
+    "testing.md",
+    "^1.md",
+    "Reading/@hubbardVectorCalculusLinear.md",
+    "ZoteroNotes/hubbardVectorCalculusLinear.md",
+    "hubbardVectorCalculusLinear.md",
+    "@SurfaceIntegralsDifference.md",
+    "[1].md",
+    "GeneralizedStokesTheorem2023.md",
+    "SurfaceIntegralsDifference.md"
+  ]
+}

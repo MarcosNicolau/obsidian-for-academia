@@ -1,0 +1,42 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "Zotero/Notes",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Citation APA",
+      "format": "formatted-citation",
+      "cslStyle": "apa"
+    },
+    {
+      "name": "Lancet",
+      "format": "formatted-citation",
+      "cslStyle": "the-lancet"
+    },
+    {
+      "name": "Pandoc",
+      "format": "pandoc",
+      "brackets": true
+    },
+    {
+      "name": "Bibliography APA",
+      "format": "formatted-bibliography",
+      "cslStyle": "apa"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "General",
+      "outputPathTemplate": "ZoteroNotes/@{{citekey}}.md",
+      "imageOutputPathTemplate": "ZoteroNotes/Assets/@{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "templates/zotero note integration.md",
+      "cslStyle": "apa"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note"
+}

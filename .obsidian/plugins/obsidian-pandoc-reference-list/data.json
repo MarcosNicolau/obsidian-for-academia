@@ -1,0 +1,19 @@
+{
+  "pathToPandoc": "/usr/bin/pandoc",
+  "tooltipDelay": 400,
+  "zoteroGroups": [
+    {
+      "id": 1,
+      "name": "My Library"
+    }
+  ],
+  "renderCitations": true,
+  "renderCitationsReadingMode": true,
+  "renderLinkCitations": true,
+  "pathToBibliography": "/home/marcos/.zotero/export.bib",
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/the-lancet.csl",
+  "hideLinks": false,
+  "pullFromZotero": false,
+  "enableCiteKeyCompletion": true,
+  "showCitekeyTooltips": true
+}
