@@ -143,7 +143,7 @@ Note: If you want to export your documents using pandoc, then you must use this 
 Then you need to tell the plugin where the .bib file exported by your reference manager is located in the configuration.
 
 Once you have configurated everything, you would cite following the pandoc format:
-`[@CITE_KEY]`. Though, you should use the wiklink format `[@CITE_KEY](@CITE_KEY)`, this way you would be citing the source as well as connecting the note with the annotations (in case you created one). For this reason, you must import your annotations following the format `@{{citekey}}`.
+`[@CITE_KEY]`. Though, you should use the wikilink format `[@CITE_KEY](@CITE_KEY)`, this way you would be citing the source as well as connecting the note with the annotations (in case you created one). For this reason, you must import your annotations following the format `@{{citekey}}`.
 
 By the way, you should activate the option "_Show citekey suggestions_" in the plugin to have autocompletion. Furthermore, you can set the Zotero Integration to cite in the pandoc style:
 
@@ -204,13 +204,13 @@ There are two caveats to this approach:
 
 ##### Styling
 
-We want to make the document look as closely as possible to latex, which is the standard when doing academic documents. For that, add this [css snippet](./.obsidian/snippets/paper.css) and activate it. Check the [official guide](https://help.obsidian.md/Extending+Obsidian/CSS+snippets) for help.
+We want to make the document look as closely as possible to latex, which is the standard when doing academic documents. For that, add this [css snippet](./.obsidian/snippets/academic.css) and activate it. Check the [official guide](https://help.obsidian.md/Extending+Obsidian/CSS+snippets) for help.
 
-Then you need to provide the property `cssclass: paper` or
+Then you need to provide the property `cssclass: academic` or
 
 ```yaml
 cssclasess:
-    - paper
+    - academic
 ```
 
 In the note, you want to export. This will activate the academic style when exporting the note.
@@ -221,12 +221,12 @@ For example:
 | -------------------- | -------------------- |
 | ![14](assets/14.png) | ![10](assets/10.png) |
 
-Additionally, you can also provide the class `columns` so that it renders the document in two columns. This way, your properties should look like:
+Additionally, you can also provide the class `twocolumn` so that it renders the document in two columns. This way, your properties should look like:
 
 ```yaml
 cssclasess:
-    - paper
-    - columns
+    - academic
+    - twocolumn
 ```
 
 See the style in action:
@@ -326,13 +326,13 @@ or if everythinng is inside a folder:
 With obsidian, you just simply call all the notes into one
 
 ```markdown
-![[note_1]]
-![[note_2]]
-![[note_3]]
+![note_1](note_1)
+![note_2](note_2)
+![note_3](note_3)
 .
 .
 .
-![[note_n]]
+![note_n](note_n)
 ```
 
 #### Improving Math writing
