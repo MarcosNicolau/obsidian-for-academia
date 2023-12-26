@@ -1,19 +1,14 @@
 {
   "database": "Zotero",
-  "noteImportFolder": "Zotero/Notes",
+  "noteImportFolder": "ZoteroNotes",
   "pdfExportImageDPI": 120,
   "pdfExportImageFormat": "jpg",
   "pdfExportImageQuality": 90,
   "citeFormats": [
     {
-      "name": "Citation APA",
+      "name": "Add APA Citation",
       "format": "formatted-citation",
       "cslStyle": "apa"
-    },
-    {
-      "name": "Lancet",
-      "format": "formatted-citation",
-      "cslStyle": "the-lancet"
     },
     {
       "name": "Pandoc",
@@ -21,18 +16,18 @@
       "brackets": true
     },
     {
-      "name": "Bibliography APA",
+      "name": "Add Bibliography APA",
       "format": "formatted-bibliography",
       "cslStyle": "apa"
     }
   ],
   "exportFormats": [
     {
-      "name": "General",
+      "name": "Create Note",
       "outputPathTemplate": "ZoteroNotes/@{{citekey}}.md",
       "imageOutputPathTemplate": "ZoteroNotes/Assets/@{{citekey}}/",
       "imageBaseNameTemplate": "image",
-      "templatePath": "templates/zotero note integration.md",
+      "templatePath": "templates/zotero.md",
       "cslStyle": "apa"
     }
   ],

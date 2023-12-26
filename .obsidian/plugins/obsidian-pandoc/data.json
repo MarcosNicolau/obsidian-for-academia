@@ -10,6 +10,6 @@
   "pandoc": null,
   "pdflatex": null,
   "outputFolder": null,
-  "extraArguments": "--from markdown+wikilinks_title_after_pipe -H ./header.tex",
+  "extraArguments": "--from markdown+wikilinks_title_after_pipe   --citeproc",
   "exportFrom": "md"
 }

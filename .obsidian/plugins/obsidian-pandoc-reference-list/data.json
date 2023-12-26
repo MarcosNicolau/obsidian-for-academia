@@ -4,14 +4,15 @@
   "zoteroGroups": [
     {
       "id": 1,
-      "name": "My Library"
+      "name": "My Library",
+      "lastUpdate": 1703627964793
     }
   ],
   "renderCitations": true,
   "renderCitationsReadingMode": true,
   "renderLinkCitations": true,
   "pathToBibliography": "/home/marcos/.zotero/export.bib",
-  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/the-lancet.csl",
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl",
   "hideLinks": false,
   "pullFromZotero": false,
   "enableCiteKeyCompletion": true,

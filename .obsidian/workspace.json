@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "22353e4ef35b1bc3",
+        "id": "91c4c6340f153ec4",
         "type": "tabs",
         "children": [
           {
-            "id": "0c457d2d9af640d0",
+            "id": "67d53efbf5548110",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readme.md",
+                "file": "templates/academic.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
+                "file": "templates/academic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readme.md",
+                "file": "templates/academic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readme.md"
+                "file": "templates/academic.md"
               }
             }
           },
@@ -154,37 +154,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c457d2d9af640d0",
+  "active": "57041b7eebad57c4",
   "lastOpenFiles": [
+    "templates/zotero.md",
+    "example-note-2.md",
+    "example-note.md",
+    "example-note.pdf",
+    "example-note-2.pdf",
+    "La relación entre el teorema de la Divergencia y el de Green.md",
+    "readme.md",
+    "output.pdf",
+    "ZoteroNotes/@spivakCalculusManifoldsModern2018a.md",
+    "ZoteroNotes/@SurfaceIntegralsDifference.md",
+    "@spivakCalculusManifoldsModern2018.md",
+    "Untitled",
+    "templates/academic.md",
+    "ZoteroNotes/@hubbardVectorCalculusLinear.md",
+    "ZoteroNotes/spivakCalculusManifoldsModern2018.md",
+    "ZoteroNotes/Assets/@spivakCalculusManifoldsModern2018a/image-137-x102-y118.png",
+    "ZoteroNotes/Assets/@spivakCalculusManifoldsModern2018a",
+    "Zotero/Notes/spivakCalculusManifoldsModern2018a.md",
+    "Zotero/Notes",
+    "Zotero",
+    "academic.css",
+    "assets/5.png",
+    "assets/4.png",
+    "assets/3.png",
+    "assets/2.png",
+    "assets/1.png",
     "snippets/zotero.css",
     "snippets/paper.css",
-    "snippets/general.css",
-    "snippets",
-    "example-note.md",
-    "ZoteroNotes/@hubbardVectorCalculusLinear.md",
-    "example-note.pdf",
-    "templates/paper.md",
-    "templates/zotero note integration.md",
-    "readme.md",
-    "La relación entre el teorema de la Divergencia y el de Green.md",
     "assets/17.png",
     "assets/Screenshot from 2023-12-23 17-44-46.png",
-    "ZoteroNotes/@SurfaceIntegralsDifference.md",
-    "gh-md-toc",
     "assets/14.png",
     "assets/12.png",
-    "assets/9.png",
-    "assets/7.png",
-    "assets/16.png",
-    "assets/1.png",
-    "assets/15.png",
-    "assets/13.png",
-    "preamble.sty",
-    "preambl.sty",
     "La relación entre el teorema de la Divergencia y el de Green 2.md",
-    "La relación entre el teorema de la Divergencia y el de Green 2.pdf",
-    "La relación entre el teorema de la Divergencia y el de Green 2.docx",
-    "header.tex",
     "assets/example-note.md",
     "readme.md.md",
     "combined.md",
