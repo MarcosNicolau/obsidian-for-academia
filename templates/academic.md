@@ -12,6 +12,9 @@ csl: "LINK_TO_CITATION_STYLE"
 variable: 
   - papersize=a4paper
   - classoption=twocolumn % two column layout
+cssclasses:
+  - academic
+  - twocolumn
 header-includes: |
   \usepackage{preamble} 
   \usepackage{fancyhdr}
