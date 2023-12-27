@@ -1,8 +1,8 @@
 # Obsidian for Academia
 
-This repository is an attempt to create a collaborative documentation explaining all the forms to convert obsidian into an academic writing tool.
+This repository attempts to create a collaborative documentation explaining all the forms to convert obsidian into an academic writing tool.
 
-There is no single or definite form of achieving this. So here you will find all the possible setups with their benefits and drawbacks explained.
+There is no single or definite form of achieving this. So here you will find all the possible setups with their benefits and drawbacks.
 
 To see this workflow in action, watch this [video](https://youtube.com).
 
@@ -12,7 +12,7 @@ To see this workflow in action, watch this [video](https://youtube.com).
     -   [Reference Manager integration](#reference-manager-integration)
         -   [Integrating Zotero](#integrating-zotero)
             -   [Importing your annotations](#importing-your-annotations)
-        -   [Integrating other Reference manager](#integrating-other-reference-manager)
+        -   [Integrating another Reference manager](#integrating-another-reference-manager)
             -   [Importing your annotations](#importing-your-annotations-1)
     -   [Citations](#citations)
         -   [Zotero Integration](#zotero-integration)
@@ -145,7 +145,7 @@ Then you need to tell the plugin where the .bib file exported by your reference 
 Once you have configurated everything, you would cite following the pandoc format:
 `[@CITE_KEY]`. Though, you should use the wikilink format `[@CITE_KEY](@CITE_KEY)`, this way you would be citing the source as well as connecting the note with the annotations (in case you created one). For this reason, you must import your annotations following the format `@{{citekey}}`.
 
-By the way, you should activate the option "_Show citekey suggestions_" in the plugin to have autocompletion. Furthermore, you can set the Zotero Integration to cite in the pandoc style:
+By the way, you should activate the option "_Show citekey suggestions_" in the plugin to have auto-completion. Furthermore, you can set the Zotero Integration to cite in the pandoc style:
 
 ![4](assets/4.png)
 
@@ -191,7 +191,7 @@ This way, your bibliography will be automatically inserted at the bottom when ex
 
 ### Exporting
 
-You should know that there are two ways _-maybe there are other forms, but these are the most popular among the community-_ of exporting your documents: Through **Pandoc** or using the Obsidian **native** functions. If you choose the former, you should know that you must forfeit many obsidian features explained in [here](#caveats2).
+You should know that there are two ways _-maybe there are other forms, but these are the most popular among the community-_ of exporting your documents: Through **Pandoc** or using the Obsidian **native** functions. If you choose the former, you should know that you must forfeit many obsidian features explained in [here](#caveats-1).
 
 #### Native
 
@@ -271,10 +271,10 @@ To export the document using the Obisidan Pandoc plugin you just enter the comma
 If you want to go with the CLI style, then enter
 
 ```bash
-pandoc <PATH_TO_NOTE>.md -o ./output.pdf --from=markdown+wikilinks_title_after_pipe
+pandoc <PATH_TO_NOTE>.md -o ./output.pdf --from=markdown+wikilinks_title_after_pipe --citeproc
 ```
 
-Note: we are not passing the common flags you will see in other guides because they are all passed through the document properties. For example, you could provide the bibliography, citeproc, and csl flags in the extra arguments field in the Obsidian Pandoc settings.
+Note: we are not passing the common flags you will see in other guides because they are all passed through the document properties. For example, you could provide the bibliography, and csl flags in the extra arguments field in the Obsidian Pandoc settings.
 
 To see an example see
 
