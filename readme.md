@@ -4,7 +4,7 @@ This repository attempts to create a collaborative documentation explaining all 
 
 There is no single or definite form of achieving this. So here you will find all the possible setups with their benefits and drawbacks.
 
-To see this workflow in action, watch this [video](https://youtube.com](https://youtu.be/ZKQEgf2ktWE).
+To see this workflow in action, watch this [video](https://youtu.be/ZKQEgf2ktWE).
 
 # Table of Contents
 
