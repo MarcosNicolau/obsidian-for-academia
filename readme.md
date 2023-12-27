@@ -58,7 +58,7 @@ Note: We are skipping the installation of Zotero and its plugins here, as well a
 
 We'll use Zotero Integration to create notes that contain the full metadata, link to Zotero, as well as PDF annotations and notes.
 
-For that, the plugin requires a template. We provide a standard one [here](./templates/literature-note-zotero). You can extend it to your needs following their [docs](https://github.com/mgmeyers/obsidian-zotero-integration/blob/main/docs/Templating.md).
+For that, the plugin requires a template. We provide a standard one [here](./templates/zotero). You can extend it to your needs following their [docs](https://github.com/mgmeyers/obsidian-zotero-integration/blob/main/docs/Templating.md).
 
 The setup will look like:
 
@@ -210,7 +210,7 @@ Then you need to provide the property `cssclass: academic` or
 
 ```yaml
 cssclasess:
-    - academic
+  - academic
 ```
 
 In the note, you want to export. This will activate the academic style when exporting the note.
@@ -225,8 +225,8 @@ Additionally, you can also provide the class `twocolumn` so that it renders the 
 
 ```yaml
 cssclasess:
-    - academic
-    - twocolumn
+  - academic
+  - twocolumn
 ```
 
 See the style in action:
@@ -248,25 +248,30 @@ You need to install:
 -   [Pandoc](https://pandoc.org/installing.html)
 -   [A Latex engine](https://www.tug.org/texlive/)
 -   [Obsidian Pandoc](https://github.com/OliverBalfour/obsidian-pandoc)(optional) - Obsidian plugin
+-  [Link Converter](https://github.com/ozntel/obsidian-link-converter)(optional) - Obsidian Plugin
 -   [Templater](https://github.com/SilentVoid13/Templater) - Obsidian Plugin
 
 If you've been reading the readme, you should know that if you are using pandoc export, then the citations and the bibliography are created by this tool.
 
 To export the document you can do it through the Obsidian Pandoc plugin or via the CLI. They actually are the same thing, only that the former is a wrapper of the latter.
 
-We provide you with a [template](./templates/pandoc-export.md) that includes all the properties and metadata commonly used. They are all read by pandoc when exporting. You can see what each one does [here](https://pandoc.org/MANUAL.htmls).
+We provide you with a [template](./templates/academic.md) that includes all the properties and metadata commonly used. They are all read by pandoc when exporting. You can see what each one does [here](https://pandoc.org/MANUAL.htmls).
 
 Note: You could create a header file which you would then provide to pandoc with the `-H` flag, instead of declaring everything in the note properties. See more [here](https://pandoc.org/MANUAL.html#general-writer-options)
 
-Then when you want to create a note that you will later export with pandoc you should enter the command "_Templater: Create new note from template_" and select the one for pandoc. For some reason, you can't use the native template function because it fails to insert the template.
+Then when you want to create a note that you will later export with pandoc you should enter the command "_Templater: Create new note from template_" and select the one for pandoc. 
 
-Wikilinks don't work with pandoc out of the box. To make them work we need to tell pandoc to use the _wikilinks_title_after_pipe_ extension. Which we do by providing the flag `--from=markdown+wikilinks_title_after_pipe`.
+Note: We are not using the native template functions because it fails to insert the template.
 
-You can configure the Obsidian Pandoc to add it to all the exports.
+As said before Wikilinks don't work with pandoc . Still, you can use them and, before exporting the note, you can run the command "*Obsidian Link Converter: Active file: Links to Markdown*"  which will convert all the link in the wikilink format to the general markdown format. 
+
+Finally, you need to provide the `--citeproc` flag.
+
+If you are using the Obsidian Pandoc Plugin, then
 
 ![13](assets/13.png)
 
-To export the document using the Obisidan Pandoc plugin you just enter the command "_Pandoc Plugin: Export as PDF_".
+And to export the document using the enter the command "_Pandoc Plugin: Export as PDF_".
 
 If you want to go with the CLI style, then enter
 
