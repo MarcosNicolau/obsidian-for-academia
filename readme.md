@@ -4,7 +4,7 @@ This repository attempts to create a collaborative documentation explaining all 
 
 There is no single or definite form of achieving this. So here you will find all the possible setups with their benefits and drawbacks.
 
-To see this workflow in action, watch this [video](https://youtube.com).
+To see this workflow in action, watch this [video](https://youtube.com](https://youtu.be/ZKQEgf2ktWE).
 
 # Table of Contents
 
@@ -322,7 +322,7 @@ If you are writing a long document, chances are you are writing each section in 
 
 `pandoc ./note_1.md ./note_2.md ... ./note_n.md -o output.pdf`
 
-or if everythinng is inside a folder:
+or if everything is inside a folder:
 
 `pandoc ./folder/*.md -o output.pdf`
 
