@@ -247,8 +247,8 @@ You need to install:
 
 -   [Pandoc](https://pandoc.org/installing.html)
 -   [A Latex engine](https://www.tug.org/texlive/)
--   [Obsidian Pandoc](https://github.com/OliverBalfour/obsidian-pandoc)(optional) - Obsidian plugin
--  [Link Converter](https://github.com/ozntel/obsidian-link-converter)(optional) - Obsidian Plugin
+-   [Obsidian Pandoc](https://github.com/OliverBalfour/obsidian-pandoc) (optional) - Obsidian plugin
+-  [Link Converter](https://github.com/ozntel/obsidian-link-converter) (optional) - Obsidian Plugin
 -   [Templater](https://github.com/SilentVoid13/Templater) - Obsidian Plugin
 
 If you've been reading the readme, you should know that if you are using pandoc export, then the citations and the bibliography are created by this tool.
@@ -263,15 +263,15 @@ Then when you want to create a note that you will later export with pandoc you s
 
 Note: We are not using the native template functions because it fails to insert the template.
 
-As said before Wikilinks don't work with pandoc . Still, you can use them and, before exporting the note, you can run the command "*Obsidian Link Converter: Active file: Links to Markdown*"  which will convert all the link in the wikilink format to the general markdown format. 
+As said before Wikilinks don't work with pandoc . Still, you can use them and, before exporting the note, you can run the command "*Obsidian Link Converter: Active file: Links to Markdown*"  which will convert all the links in the wikilink format to the general markdown format. 
 
 Finally, you need to provide the `--citeproc` flag.
 
-If you are using the Obsidian Pandoc Plugin, then
+If you are using the Obsidian Pandoc Plugin, then you need to configure the command arguments:
 
 ![13](assets/13.png)
 
-And to export the document using the enter the command "_Pandoc Plugin: Export as PDF_".
+And to export enter the command "_Pandoc Plugin: Export as PDF_".
 
 If you want to go with the CLI style, then enter
 
