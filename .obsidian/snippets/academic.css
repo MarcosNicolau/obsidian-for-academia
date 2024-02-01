@@ -5,7 +5,10 @@
 @media print {
 	/* Document-wide. ---------------------------------------------------------------------- */
 	@page {
-		/* Page structure. */
+		/* 
+			Notice that this will add a margin to all your pdf export, regardless if you don't have the "academic" class activated. 
+			To prevent, simply deactivate the css snippet from the obsidian config and activate it when you want to actually export it using the academic style 
+		*/
 		margin: 2cm !important;
 	}
 	/* 
