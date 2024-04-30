@@ -33,6 +33,8 @@ To see this workflow in action, watch this [video](https://youtu.be/ZKQEgf2ktWE)
     -   [Other](#other)
         -   [Combine notes](#combine-notes)
         -   [Improving Math writing](#improving-math-writing)
+            -   [Numerating equations](#numerating-equations)
+            -   [Aligning equations](#aligning-equations)
         -   [Page breaks](#page-breaks)
 -   [Contributing](#contributing)
 -   [Reference](#reference)
@@ -342,11 +344,22 @@ With obsidian, you just simply call all the notes into one
 ```
 
 #### Improving Math writing
-Many styles, such as the IEEE Style, would suggest that one numerates their math writings and refers to them as equations. To do this in Obsidian all you have to do is add `\tag{n}` to your math block where `n` is the figure/equation number.
+##### Numerating equations
+Many styles, such as the IEEE Style, that requires the author numerates their "math blocks" and refers to them as equations. To do this in Obsidian all you have to do is add `\tag{n}` to your math block where `n` is the figure/equation number.
 
 An example would be:
 `$$\tag{4} 1+1=2$$`
 ![image](https://github.com/carlgustavh/obsidian-for-academia/assets/95967108/d733c915-df7f-4495-b0ad-e1996dc7020e)
+##### Aligning equations
+Sometimes you will want to show your readers how you are reducing an expression. For this, the IEEE style requires that you align your equations properly.
+
+To do this Obsidian you need to write the expressions inside the begin/end aligned tags: `$$\begin{aligned}2x - 4 &= 6 \\ 2x &= 10 \\ x &= 5\end{aligned}`. Now you may be wondering what some of the other symbols mean so let me explain:
+
+- __\\\\__ is for marking a new line.
+- __&__ is for marking which character you want to align. One is needed in each line. So here, it'll align all the "=", as each line's "=" has an "&" symbol in front of it.
+
+![image](https://github.com/carlgustavh/obsidian-for-academia/assets/95967108/87855a5e-5a9c-4617-bc80-d933d604e192)
+
 
 (MORE_TO_BE_ADDED)
 
