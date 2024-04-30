@@ -342,7 +342,7 @@ With obsidian, you just simply call all the notes into one
 ```
 
 #### Improving Math writing
-Many styles, such as the IEEE Style, would suggest that one numerates their math writings and refers to them as equations. To do this in Obsidian all you have to do is add `\tag{n}` to your math block where n is the figure/equation number.
+Many styles, such as the IEEE Style, would suggest that one numerates their math writings and refers to them as equations. To do this in Obsidian all you have to do is add `\tag{n}` to your math block where `n` is the figure/equation number.
 
 An example would be:
 `$$\tag{4} 1+1=2$$`
