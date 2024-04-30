@@ -33,6 +33,7 @@ To see this workflow in action, watch this [video](https://youtu.be/ZKQEgf2ktWE)
     -   [Other](#other)
         -   [Combine notes](#combine-notes)
         -   [Improving Math writing](#improving-math-writing)
+        -   [Line breaks](#line-breaks)
 -   [Contributing](#contributing)
 -   [Reference](#reference)
 
@@ -344,7 +345,7 @@ With obsidian, you just simply call all the notes into one
 
 (TO_BE_ADDED)
 
-#### Line-breaks
+#### Line breaks
 Line breaks is a widely used tool, avaiable in everything from LaTex to Microsoft Word. It's especially useful if you want a seperate front page, or just dont like how a paragraph is split up it between two pages.
 
 To make a line break in obsidian, all you have to do is paste this HTML:
