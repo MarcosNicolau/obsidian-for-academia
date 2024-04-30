@@ -33,6 +33,7 @@ To see this workflow in action, watch this [video](https://youtu.be/ZKQEgf2ktWE)
     -   [Other](#other)
         -   [Combine notes](#combine-notes)
         -   [Improving Math writing](#improving-math-writing)
+        -   [Page breaks](#page-breaks)
 -   [Contributing](#contributing)
 -   [Reference](#reference)
 
@@ -343,6 +344,16 @@ With obsidian, you just simply call all the notes into one
 #### Improving Math writing
 
 (TO_BE_ADDED)
+
+#### Page breaks
+Page breaks is a widely used tool, avaiable in everything from LaTex to Microsoft Word. It's especially useful if you want a seperate front page, or just dont like how a paragraph is split up it between two pages.
+
+To make a page break in obsidian, all you have to do is paste this HTML:
+
+`<div style="page-break-after: always;"></div>`
+
+It is __important to note__ that you should always have a line break before and after this HTML tag, to make sure it works properly. 
+Another note is that it's going to appear invisible in live-editor mode, unless you move your cursor to it with your arrow keys.
 
 ---
 
