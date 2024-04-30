@@ -349,8 +349,11 @@ With obsidian, you just simply call all the notes into one
 Line breaks is a widely used tool, avaiable in everything from LaTex to Microsoft Word. It's especially useful if you want a seperate front page, or just dont like how a paragraph is split up it between two pages.
 
 To make a line break in obsidian, all you have to do is paste this HTML:
+
 `<div style="page-break-after: always;"></div>`
-It is important to note that you should always have a linebreak before and after this HTML tag, to make sure it works properly. Another note is that it's going to appear invisible in live-editor mode, unless you move your cursor to it with your arrow keys.
+
+It is __important to note__ that you should always have a linebreak before and after this HTML tag, to make sure it works properly. 
+Another note is that it's going to appear invisible in live-editor mode, unless you move your cursor to it with your arrow keys.
 
 ---
 
