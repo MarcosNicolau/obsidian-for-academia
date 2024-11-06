@@ -61,7 +61,7 @@ Note: We are skipping the installation of Zotero and its plugins here, as well a
 
 We'll use Zotero Integration to create notes that contain the full metadata, link to Zotero, as well as PDF annotations and notes.
 
-For that, the plugin requires a template. We provide a standard one [here](./templates/zotero). You can extend it to your needs following their [docs](https://github.com/mgmeyers/obsidian-zotero-integration/blob/main/docs/Templating.md).
+For that, the plugin requires a template. We provide a standard one [here](./templates/zotero.md). You can extend it to your needs following their [docs](https://github.com/mgmeyers/obsidian-zotero-integration/blob/main/docs/Templating.md).
 
 The setup will look like:
 
